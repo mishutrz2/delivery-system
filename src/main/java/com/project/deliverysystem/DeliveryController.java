@@ -19,7 +19,7 @@ public class DeliveryController {
         this.myLabel = arg_myLabel;
     }
 
-    // return some orders
+    // returns some orders
     @GetMapping
     public List<Order> getOrder(){
         return myOrdersRepo.findAll();
