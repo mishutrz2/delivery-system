@@ -32,4 +32,8 @@ public class Order {
     public Double getWeight(){
         return weight;
     }
+
+    public void setWeight(Double arg_weight){
+        this.weight = arg_weight;
+    }
 }
